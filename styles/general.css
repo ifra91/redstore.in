@@ -1,0 +1,51 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+body {
+    background-image: radial-gradient( white 10%, rgb(248, 201, 209));
+    font-family: Montserrat;
+}
+
+a {text-decoration: none;
+    margin : 15px;
+    color :rgb(66, 60, 60);
+}
+
+p {
+    color :rgb(66, 60, 60);
+}
+
+.logo-img {
+    width: 10%;
+    height: 5%;
+    padding: 2% 6%;
+}
+
+header, ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin : 20px;
+    align-content: center;
+}
+
+li {
+    text-decoration: solid;
+    list-style: none;
+}
+
+.explore-button {
+    background-color: rgb(238, 75, 16);
+    color:white;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+}
+
+.explore-button:hover {
+    cursor:pointer;
+}
