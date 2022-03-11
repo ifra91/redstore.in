@@ -1,13 +1,12 @@
-
 .cart-img {
-    width : 20px;
-    height : 20px;
+    width: 20px;
+    height: 20px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
-    width : 100%;
+    width: 100%;
     justify-content: space-between;
     margin-left: 7%;
     align-items: center;
@@ -15,17 +14,17 @@
 }
 
 .container p {
-    margin : 20px 0%;   
+    margin: 20px 0%;
 }
 
 .container h1 {
-    font-size:45px;
+    font-size: 45px;
     font-weight: 800;
     padding-right: 25%;
 }
 
 .center-img {
-    height : 55%;
+    height: 55%;
     width: 45%;
     padding-right: 10%;
 }

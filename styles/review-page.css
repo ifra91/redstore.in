@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(white, rgb(219, 214, 214), rgb(173, 167, 167));
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3% 1%;
+    padding: 0 10%;
+    background-color: transparent;
+}
+
+.main-card {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 3% 2%;
+    box-shadow: 3px 2px 3px 2px #b1acac;
+    border-radius: 2%;
+}
+
+.main-card-comma {
+    font-family: "Bigshot One";
+    font-weight: 400;
+    font-size: 7vw;
+    color: rgb(235, 102, 54);
+    height: 10%;
+}
+
+.stars-rating {
+    color: rgb(235, 102, 54);
+    border: none;
+    font-size: 1vw;
+    border-radius: 15%;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.main-card-review {
+    padding: 10% 10% 0% 10%;
+    text-align: -webkit-center;
+    font-family: 'League Spartan', sans-serif;
+    color: #9c9999;
+}
+
+.name-reviewer {
+    font-family: 'League Spartan', sans-serif;
+    color: #5c5757;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.main-card img {
+    height: 20%;
+    width: 17%;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin: 10% 10% 0% 10%;
+}
+
+footer img {
+    height: 5%;
+    width: 15%;
+    filter: grayscale(100%);
+}

@@ -1,28 +1,25 @@
-
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
     align-items: center;
+    padding: 10% 5% 0% 0%;
 }
 
-.container h1 {
-    font-size:45px;
+.text-container .watch-title {
+    font-size: 45px;
     font-weight: 800;
-    padding-right: 25%;
 }
 
-.container p {
-    margin: 20px 0%;
-    font-size:20px;
+.text-container p {
+    margin: 2% 0%;
+    font-size: 20px;
     font-weight: 300;
-    word-wrap: normal;
+    word-wrap: break-word;
 }
 
 .band-img {
-    flex-wrap: wrap;
-    width: 30%;
-    height: 30%;
-    align-items: center;
+    width: 28%;
+    height: 28%;
+    margin-left: 15%;
 }
